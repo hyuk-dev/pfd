@@ -1,0 +1,77 @@
+.contentBox {
+    margin: 0 auto;
+    outline: 1px solid rgb(192, 192, 192);
+    width: 90%;
+    min-height: 15rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contentBox > * {
+    margin: 0 auto;
+}
+
+.contentBoxSmall {
+    margin: 0 auto;
+    outline: 1px solid rgb(192, 192, 192);
+    width: 90%;
+    min-height: 10rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contentBox > h2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(143, 143, 143);
+    border-radius: 1rem 1rem 0 0;
+    padding: 0.5rem 0;
+}
+
+.contentBoxSmall > h2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(90, 174, 212);
+    border-radius: 1rem 1rem 0 0;
+    padding: 0.5rem 0;
+}
+
+.boxContent {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planInput {
+    padding: 0.5rem;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 1rem;
+    background-color: rgb(221, 221, 221);
+}
+
+.planInput:focus {
+    outline: 1px solid rgb(109, 169, 209);
+}
+
+.plan {
+    border-bottom: 1px solid rgb(168, 168, 168);
+    width:100%;
+    text-align: center;
+    color:rgb(54, 54, 54);
+    background-color: rgb(216, 216, 216);
+}
+
+.plan:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+.code {
+    background-color: rgb(230, 230, 230);
+    color: rgb(226, 95, 171);
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+}

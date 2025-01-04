@@ -1,0 +1,80 @@
+* {
+    background-color: rgb(255, 255, 255);
+    color: rgb(58, 58, 58);
+}
+
+header {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    color:rgb(56, 56, 56);
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.navMenus {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.content > div {
+    background-color: rgb(255, 255, 255);
+}
+.content {
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: minmax(500px, auto);
+    grid-template-areas:
+        "plm pif"
+        "bp inpro"
+        "test acco";
+    background-color: rgb(255, 255, 255);
+}
+
+.beforeProceeding {
+    grid-area: bp;
+}
+
+.inProgress {
+    grid-area: inpro;
+}
+
+.testing {
+    grid-area: test;
+}
+
+.accomplished {
+    grid-area: acco;
+}
+
+.plannerManage {
+    grid-area: plm;
+}
+
+.plannerInfo {
+    grid-area: pif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 40rem;
+    gap: 1rem;
+}
+
+.footerElement {
+    width: 5rem;
+    padding: 0.3rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: rgb(204, 204, 204);
+}
