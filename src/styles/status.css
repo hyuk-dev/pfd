@@ -53,7 +53,9 @@
 }
 
 .planInput:focus {
-    outline: 1px solid rgb(109, 169, 209);
+    outline: 2px solid rgb(109, 169, 209);
+    background-color: white;
+    border:none;
 }
 
 .plan {
@@ -74,4 +76,11 @@
     padding: 0.1rem;
     border-radius: 0.5rem;
     font-size: 0.8rem;
+}
+
+.progressBar {
+    background-color: rgb(216, 216, 216);
+    width: 50%;
+    height: 2rem;
+    border-radius: 1rem;
 }

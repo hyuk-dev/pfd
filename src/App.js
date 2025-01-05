@@ -13,13 +13,13 @@ function App() {
   useEffect(()=>{
     let allPlans = plans.length;
     let successedPlans = plans.filter((element) => element.status === "3").length;
-    setPer((successedPlans/allPlans * 100).toFixed(1));
+    setPer((successedPlans/allPlans * 100).toFixed(0));
   },[plans])
 
   function PageFocus(){
     if(navFocus === "planner") return <PlannerPage plans={plans} setPlans={setPlans} per={per} setPer={setPer}/>;
-
   }
+
   return (
     <>
       <header>
